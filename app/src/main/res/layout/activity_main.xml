@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#0F1115">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Тез баптау"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Батырманы бассаңыз керекті бет ашылады. Авиарежим интернетті (Wi-Fi + мобильді) өшіреді."
+        android:textColor="#9AA4B2"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnAirplane"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="✈  Авиарежимді ашу"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#2563EB"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnLocation"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="📍  Локацияны (GPS) ашу"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#059669"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnWifi"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="📶  Wi-Fi баптауын ашу"
+        android:textSize="16sp"
+        android:backgroundTint="#475569"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
